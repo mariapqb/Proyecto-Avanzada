@@ -1,7 +1,14 @@
 package co.edu.uniquindio.proyecto.modelo;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+import lombok.*;
+
 @Document("usuarios")
+@Getter
+@Setter
+@NoArgsConstructor
+@ToString
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public class usuario {
 
     @Id
