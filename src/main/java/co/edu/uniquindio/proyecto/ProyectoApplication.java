@@ -12,5 +12,3 @@ public class ProyectoApplication {
         SpringApplication.run(ProyectoApplication.class, args);
     }
 }
-//prueba
-//Sapo hpta
