@@ -1,22 +1,20 @@
-### IntelliJ IDEA ###
-/.idea/
-*.iws
-*.iml
-*.ipr
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Gradle ###
-/.gradle/
+.gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
 ### Eclipse ###
 .apt_generated
@@ -26,7 +24,7 @@ build/
 .settings
 .springBeans
 .sts4-cache
-/*/bin/
+bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
