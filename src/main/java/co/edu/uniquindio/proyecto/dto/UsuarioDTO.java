@@ -4,6 +4,8 @@ public record UsuarioDTO(
         String nombre,
         String cedula,
         String direccion,
-        String telefono){
+        String telefono,
+        String email,
+        String password) {
 
 }

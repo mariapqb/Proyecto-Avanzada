@@ -17,6 +17,17 @@ import java.util.List;
 public class CuentaServicioImpl implements CuentaServicio {
     private final CuentaRepo cuentaRepo;
 
+    /*@Override
+    public CuentaDTO registrarCuenta(CuentaDTO cuentaDTO) {
+        // Registra una nueva cuenta en la base de datos y retorna su DTO.
+        Cuenta cuenta = new Cuenta();
+        cuenta.setNumero(cuentaDTO.getNumero());
+        cuenta.setSaldo(cuentaDTO.getSaldo());
+        // Agrega otros campos según sea necesario
+        Cuenta cuentaGuardada = cuentaRepo.save(cuenta);
+        return new CuentaDTO(cuentaGuardada);
+    }*/
+
     @Override
     public List<CuentaDTO> listarCuentas() {
 

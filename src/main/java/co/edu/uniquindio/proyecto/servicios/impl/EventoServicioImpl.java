@@ -22,6 +22,7 @@ public class EventoServicioImpl implements EventoServicio {
     public List<InformacionEventoDTO> listarEventos() {
 
         List<Evento> eventos = eventoRepo.findAll();
+         // Obtiene todos los eventos y los convierte a DTO para su uso en otras capas.
         GeneralParser gp = new GeneralParser();
         return gp.toInformacionEventoDTO(eventos);
     }
